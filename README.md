@@ -27,13 +27,13 @@ Xuebo Lai, Isaac Blinder, Christian Miljkovic, Arjun Madgavkar, Greg Ha
 
 ## Data Understanding and preparation:
 * Yelp Fusion API Data
-    ** thousandrows of restaurant 
-    ** Number of restaurants will increase as user queries the system. (Special  mechanism of our recommender system)
-    ** Features include: name, zip code; address; category; price; rating; number of reviews 
-    ** Address will be used to calculate the accurate travel time
+    * thousandrows of restaurant 
+    * Number of restaurants will increase as user queries the system. (Special  mechanism of our recommender system)
+    * Features include: name, zip code; address; category; price; rating; number of reviews 
+    * Address will be used to calculate the accurate travel time
 * User Matrix
-    ** Need to get information about user preferences
-    ** 39 rows, each is 1 user
-    ** 23 columns in each row (each column stands for a food restaurants/categories)
-    ** Ratings within each column for each user
+    * Need to get information about user preferences
+    * 39 rows, each is 1 user
+    * 23 columns in each row (each column stands for a food restaurants/categories)
+    * Ratings within each column for each user
 
