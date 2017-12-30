@@ -92,17 +92,18 @@ The people were distinguished by their age, price range and food preference.
 Result shows that there are four distinguishable clusters in the data.
 
 
-<br>
-Finding the best group number (way to group) by using Silhoutte Score:
+Finding the best group number (way to group) by using Silhoutte Score
 <br>
 ![list create](Demo/logFile.png)
 <br>
 <br>
-Clustering output:
+Clustering output
 <br>
 ![list create](Demo/ClusteringOutput.png)
 <br>
 <br>
+
+
 
 * Similarity Matrix:
     * Since collaborative filtering are used for modeling, we want to create similarity matrix between all the users for reference and in case we want to customize k means plus plus or k-nn algorithm in the future. 
