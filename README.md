@@ -27,13 +27,13 @@ Xuebo Lai, Isaac Blinder, Christian Miljkovic, Arjun Madgavkar, Greg Ha
 
 ## Data Understanding:
 <br>
-# Data Collection:
+### Data Collection:
 
 * In order to obtain information on the restaurants in Manhattan, data are collected from Yelp on thousands of restaurants in Manhattan. As well as surveyed over 100 people in order to know their preferences and backgrounds.
 
 <br>
 <br>
-# Data Description:
+### Data Description:
 
 * Yelp Fusion API Data
     * thousandrows of restaurant 
@@ -92,8 +92,6 @@ The people were distinguished by their age, price range and food preference.
 Result shows that there are four distinguishable clusters in the data.
 
 
-
-<br>
 <br>
 Finding the best group number (way to group) by using Silhoutte Score:
 <br>
