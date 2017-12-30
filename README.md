@@ -126,11 +126,8 @@ Similiarty Matrix Between Users:
 
 * Second way: Assumming we already have had enough data in resturants, we can use item-based approach. By normalizing all restaurants' features (address,rating, number of rating, categories, etc.) and creating their similiarty matrix based on Euclidean distance, we can find a list of restaurants that fit into users' past habits or current requirement. Then based on users' request, we can futher refine the list and output the result. The shortcoming of this method is the cold start problem: we might not have enough restaurants to make accurate prediction in the beginning.
 
-* Sample output:
 
 <br>
-
-
 <br>
 Results (sample output without front-end):
 ![list create](Demo/result.png)
@@ -138,7 +135,7 @@ Results (sample output without front-end):
 <br>
 
 <br>
-### Modeling Diagram:
+Modeling Diagram:
 
 <br>
 Modeling Design Algorithm
