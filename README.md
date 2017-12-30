@@ -46,16 +46,23 @@ Xuebo Lai, Isaac Blinder, Christian Miljkovic, Arjun Madgavkar, Greg Ha
     * 23 columns in each row (each column stands for a food restaurants/categories)
     * Ratings within each column for each user
 <br>
+
+
 Sample parsed data from Yelp before further processing:
 ![list create](Demo/beforeProcess.png)
+<br>
 <br>
 Sample aggregated categoies for restaurants:
 <br>
 ![list create](Demo/Aggregated.png)
 <br>
+<br>
 Sample users to restaurants category matrix:
 <br>
 ![list create](Demo/PToC.png)
+<br>
+<br>
+
 ## Data Preparation:
 * cleaned the data for missing values that might be within the Yelp API Restaurant data. For numerical data, such as the ratings, averages based on user data were used. 
 
@@ -74,13 +81,16 @@ Sample users to restaurants category matrix:
 Sample parsed Data from Yelp after processing (feature selection, normalization, quantification, etc.)
 ![list create](Demo/YelpClean.png)
 <br>
+<br>
 Finding the best group number (way to group) by using Silhoutte Score:
 <br>
 ![list create](Demo/logFile.png)
 <br>
+<br>
 Clustering output:
 <br>
 ![list create](Demo/ClusteringOutput.png)
+<br>
 <br>
 
 
