@@ -114,7 +114,6 @@ Clustering output
 
 
 
-<br>
 Similiarty Matrix Between Users
 <br>
 ![list create](Demo/SimilarityMatrix.png)
