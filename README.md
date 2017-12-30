@@ -79,6 +79,7 @@ Sample users to restaurants category matrix:
 
 
 Sample parsed Data from Yelp after processing (feature selection, normalization, quantification, etc.)
+<br>
 ![list create](Demo/YelpClean.png)
 <br>
 <br>
@@ -89,6 +90,9 @@ Sample parsed Data from Yelp after processing (feature selection, normalization,
 The K-Means++ algorithm in Java Common Math Library is used to cluster similar people.  
 The people were distinguished by their age, price range and food preference.
 Result shows that there are four distinguishable clusters in the data.
+
+
+
 <br>
 <br>
 Finding the best group number (way to group) by using Silhoutte Score:
@@ -109,6 +113,8 @@ Clustering output:
 
     * Each row and column represents an individual and the value is the similarity between them.
 
+
+
 <br>
 Similiarty Matrix Between Users:
 ![list create](Demo/SimilarityMatrix.png)
@@ -127,6 +133,7 @@ From here, there are two ways to proceed:
 * Second way: Assumming we already have had enough data in resturants, we can use item-based approach. By normalizing all restaurants' features (address,rating, number of rating, categories, etc.) and creating their similiarty matrix based on Euclidean distance, we can find a list of restaurants that fit into users' past habits or current requirement. Then based on users' request, we can futher refine the list and output the result. The shortcoming of this method is the cold start problem: we might not have enough restaurants to make accurate prediction in the beginning.
 
 
+
 <br>
 <br>
 Results (sample output without front-end):
@@ -136,6 +143,7 @@ Results (sample output without front-end):
 
 <br>
 Modeling Diagram:
+
 
 <br>
 Modeling Design Algorithm
