@@ -115,7 +115,8 @@ Clustering output
 
 
 <br>
-Similiarty Matrix Between Users:
+Similiarty Matrix Between Users
+<br>
 ![list create](Demo/SimilarityMatrix.png)
 <br>
 <br>
@@ -135,7 +136,8 @@ From here, there are two ways to proceed:
 
 <br>
 <br>
-Results (sample output without front-end):
+Results (sample output without front-end)
+<br>
 ![list create](Demo/result.png)
 <br>
 <br>
@@ -146,6 +148,7 @@ Modeling Diagram:
 
 <br>
 Modeling Design Algorithm
+<br>
 ![list create](Demo/design.png)
 <br>
 <br>
