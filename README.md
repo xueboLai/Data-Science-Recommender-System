@@ -28,7 +28,9 @@ Xuebo Lai, Isaac Blinder, Christian Miljkovic, Arjun Madgavkar, Greg Ha
 ## Data Understanding:
 <br>
 # Data Collection:
-    In order to obtain information on the restaurants in Manhattan, data are collected from Yelp on thousands of restaurants in Manhattan. As well as surveyed over 100 people in order to know their preferences and backgrounds.
+<br>
+* In order to obtain information on the restaurants in Manhattan, data are collected from Yelp on thousands of restaurants in Manhattan. As well as surveyed over 100 people in order to know their preferences and backgrounds.
+<br>
 <br>
 # Data Description:
 * Yelp Fusion API Data
