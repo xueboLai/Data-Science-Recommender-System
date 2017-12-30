@@ -62,19 +62,23 @@ Xuebo Lai, Isaac Blinder, Christian Miljkovic, Arjun Madgavkar, Greg Ha
 Sample parsed data from Yelp before further processing:
 ![list create](Demo/beforeProcess.png)
 <br>
-Sample parsed Data after processing (feature selection, normalization, quantification, etc.)
+Sample parsed Data from Yelp after processing (feature selection, normalization, quantification, etc.)
 ![list create](Demo/YelpClean.png)
 <br>
 Sample aggregated categoies for restaurants:
+<br>
 ![list create](Demo/Aggregated.png)
 <br>
 Sample users to restaurants category matrix:
+<br>
 ![list create](Demo/PToC.png)
 <br>
 Finding the best group number (way to group) by using Silhoutte Score:
+<br>
 ![list create](Demo/logFile.png)
 <br>
-Clustering output
+Clustering output:
+<br>
 ![list create](Demo/ClusteringOutput.png)
 <br>
 
