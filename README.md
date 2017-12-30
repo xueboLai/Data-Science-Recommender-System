@@ -130,6 +130,7 @@ Similiarty Matrix Between Users:
 
 <br>
 Results (sample output without front-end):
+<br>
 ![list create](Demo/result.png)
 <br>
 <br>
@@ -138,6 +139,7 @@ Results (sample output without front-end):
 ### Modeling Diagram:
 <br>
 Modeling Design Algorithm
+<br>
 ![list create](Demo/design.png)
 <br>
 <br>
