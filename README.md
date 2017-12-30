@@ -82,6 +82,15 @@ Sample parsed Data from Yelp after processing (feature selection, normalization,
 ![list create](Demo/YelpClean.png)
 <br>
 <br>
+
+## Modeling:
+
+* Data Clustering:
+The K-Means++ algorithm in Java Common Math Library is used to cluster similar people.  
+The people were distinguished by their age, price range and food preference.
+Result shows that there are four distinguishable clusters in the data.
+<br>
+<br>
 Finding the best group number (way to group) by using Silhoutte Score:
 <br>
 ![list create](Demo/logFile.png)
@@ -92,6 +101,54 @@ Clustering output:
 ![list create](Demo/ClusteringOutput.png)
 <br>
 <br>
+
+* Similarity Matrix:
+    * Since collaborative filtering are used for modeling, we want to create similarity matrix between all the users for reference and in case we want to customize k means plus plus or k-nn algorithm in the future. 
+
+    * Euclidean distance is used as the similarity measure because the most accurate recommendations would be due to similar preferences and location between individuals
+
+    * Each row and column represents an individual and the value is the similarity between them.
+
+<br>
+Similiarty Matrix Between Users:
+![list create](Demo/SimilarityMatrix.png)
+<br>
+<br>
+
+* Data Classification:
+    * Take in information about new users and their restaurant preference
+    * Calculate the average Euclidean distance from the new user to all clusters
+    * Place new user into the closest cluster based average distance (K-NN: average)
+
+# From here, there are two ways to proceed:
+
+* First way: We can look into the shared charateristics of people in the group that the new users are in and use those information to query Yelp Restaurant's API to obtain a list of recommended restaurants. Then based on user specific preference, some of the restaurants in the list will be ruled out and the rest will be used as result. The result will be ranked and show to users. The restaurants we obtained from yelp by this way will be stored into database. This approach is mainly used to avoid cold start, since it's hard to obtain a large amount restaurants from yelp at once. (The yelp restaurants api has restriction on how many restaurants that one user can obtain through querying within certain amount of time.)
+
+* Second way: Assumming we already have had enough data in resturants, we can use item-based approach. By normalizing all restaurants' features (address,rating, number of rating, categories, etc.) and creating their similiarty matrix based on Euclidean distance, we can find a list of restaurants that fit into users' past habits or current requirement. Then based on users' request, we can futher refine the list and output the result. The shortcoming of this method is the cold start problem: we might not have enough restaurants to make accurate prediction in the beginning.
+
+* Sample output:
+
+<br>
+Results (sample output without front-end):
+![list create](Demo/result.png)
+<br>
+<br>
+
+<br>
+# Modeling Diagram:
+Modeling Design Algorithm
+![list create](Demo/design.png)
+<br>
+<br>
+
+## References:
+
+
+1. [Definition and formula of Silhouette Score] (https://en.wikipedia.org/wiki/Silhouette_(clustering))
+2. [Cross Industry Standard Process for Data Mining] (https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining)
+3. [Java external library Common Math: The Apache Commons Mathematics Library] (http://commons.apache.org/proper/commons-math)
+
+
 
 
 
