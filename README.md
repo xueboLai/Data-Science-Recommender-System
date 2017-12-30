@@ -120,7 +120,7 @@ Similiarty Matrix Between Users:
     * Calculate the average Euclidean distance from the new user to all clusters
     * Place new user into the closest cluster based average distance (K-NN: average)
 
-### From here, there are two ways to proceed:
+From here, there are two ways to proceed:
 
 * First way: We can look into the shared charateristics of people in the group that the new users are in and use those information to query Yelp Restaurant's API to obtain a list of recommended restaurants. Then based on user specific preference, some of the restaurants in the list will be ruled out and the rest will be used as result. The result will be ranked and show to users. The restaurants we obtained from yelp by this way will be stored into database. This approach is mainly used to avoid cold start, since it's hard to obtain a large amount restaurants from yelp at once. (The yelp restaurants api has restriction on how many restaurants that one user can obtain through querying within certain amount of time.)
 
