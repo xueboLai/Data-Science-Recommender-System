@@ -133,20 +133,15 @@ From here, there are two ways to proceed:
 
 
 
-<br>
-<br>
+
 Results (sample output without front-end)
 <br>
 ![list create](Demo/result.png)
 <br>
 <br>
 
-<br>
-Modeling Diagram:
 
-
-<br>
-Modeling Design Algorithm
+Modeling Design Diagram
 <br>
 ![list create](Demo/design.png)
 <br>
