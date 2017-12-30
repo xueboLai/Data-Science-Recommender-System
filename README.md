@@ -30,6 +30,7 @@ Xuebo Lai, Isaac Blinder, Christian Miljkovic, Arjun Madgavkar, Greg Ha
 # Data Collection:
 
 * In order to obtain information on the restaurants in Manhattan, data are collected from Yelp on thousands of restaurants in Manhattan. As well as surveyed over 100 people in order to know their preferences and backgrounds.
+
 <br>
 <br>
 # Data Description:
@@ -45,7 +46,17 @@ Xuebo Lai, Isaac Blinder, Christian Miljkovic, Arjun Madgavkar, Greg Ha
     * 23 columns in each row (each column stands for a food restaurants/categories)
     * Ratings within each column for each user
 <br>
-# Data Preparation:
+Sample parsed data from Yelp before further processing:
+![list create](Demo/beforeProcess.png)
+<br>
+Sample aggregated categoies for restaurants:
+<br>
+![list create](Demo/Aggregated.png)
+<br>
+Sample users to restaurants category matrix:
+<br>
+![list create](Demo/PToC.png)
+## Data Preparation:
 * cleaned the data for missing values that might be within the Yelp API Restaurant data. For numerical data, such as the ratings, averages based on user data were used. 
 
 * created aggregated categories for the many different types of restaurants the Yelp API contained.
@@ -59,19 +70,9 @@ Xuebo Lai, Isaac Blinder, Christian Miljkovic, Arjun Madgavkar, Greg Ha
 * A particularly tricky feature was the restaurant categories as many had several, thus split and expanding the data frame was needed in order to complete this step.
 
 
-Sample parsed data from Yelp before further processing:
-![list create](Demo/beforeProcess.png)
-<br>
+
 Sample parsed Data from Yelp after processing (feature selection, normalization, quantification, etc.)
 ![list create](Demo/YelpClean.png)
-<br>
-Sample aggregated categoies for restaurants:
-<br>
-![list create](Demo/Aggregated.png)
-<br>
-Sample users to restaurants category matrix:
-<br>
-![list create](Demo/PToC.png)
 <br>
 Finding the best group number (way to group) by using Silhoutte Score:
 <br>
